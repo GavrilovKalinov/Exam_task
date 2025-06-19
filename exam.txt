@@ -1,0 +1,4 @@
+Star 30 white 1E30 1E10 0 0 40E3
+Star 30 red 1E30 0 1E10 -40E3 0
+Star 30 blue 1E30 0 -1E10 40E3 0
+Star 30 cyan 1E30 -1E10 0 0 -40E3
