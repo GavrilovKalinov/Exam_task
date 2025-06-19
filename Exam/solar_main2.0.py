@@ -116,34 +116,48 @@ def main():
     physical_time = 0
 
     root = tkinter.Tk()
-    # космическое пространство отображается на холсте типа Canvas
-    space = tkinter.Canvas(root, width=window_width, height=window_height, bg="black")
-    space.pack(side=tkinter.TOP)
-    # нижняя панель с кнопками
-    frame = tkinter.Frame(root)
-    frame.pack(side=tkinter.BOTTOM)
+    root.title("Solar System Simulator")
+    root.geometry("800x650")  # Фиксируем размер окна
 
+    # Настройка главного окна с правильным распределением пространства
+    root.grid_rowconfigure(0, weight=1)  # Холст будет растягиваться
+    root.grid_rowconfigure(1, weight=0)  # Фрейм с кнопками - фиксированный размер
+    root.grid_columnconfigure(0, weight=1)
+
+    # Холст для отрисовки (занимает основное пространство)
+    space = tkinter.Canvas(root, bg="black")
+    space.grid(row=0, column=0, sticky="nsew")
+
+    # Фрейм для кнопок (внизу окна)
+    frame = tkinter.Frame(root, height=50, bg="lightgray")
+    frame.grid(row=1, column=0, sticky="ew")
+
+    # Кнопка Start/Pause
     start_button = tkinter.Button(frame, text="Start", command=start_execution, width=6)
-    start_button.pack(side=tkinter.LEFT)
+    start_button.pack(side=tkinter.LEFT, padx=5, pady=5)
 
-    time_step = tkinter.DoubleVar()
-    time_step.set(1)
-    time_step_entry = tkinter.Entry(frame, textvariable=time_step)
-    time_step_entry.pack(side=tkinter.LEFT)
+    # Поле для ввода шага времени
+    time_step = tkinter.DoubleVar(value=1)
+    time_step_entry = tkinter.Entry(frame, textvariable=time_step, width=5)
+    time_step_entry.pack(side=tkinter.LEFT, padx=5, pady=5)
 
+    # Шкала скорости
     time_speed = tkinter.DoubleVar()
-    scale = tkinter.Scale(frame, variable=time_speed, orient=tkinter.HORIZONTAL)
-    scale.pack(side=tkinter.LEFT)
+    scale = tkinter.Scale(frame, variable=time_speed, orient=tkinter.HORIZONTAL, length=150)
+    scale.pack(side=tkinter.LEFT, padx=5, pady=5)
 
+    # Кнопки загрузки/сохранения
     load_file_button = tkinter.Button(frame, text="Open file...", command=open_file_dialog)
-    load_file_button.pack(side=tkinter.LEFT)
-    save_file_button = tkinter.Button(frame, text="Save to file...", command=save_file_dialog)
-    save_file_button.pack(side=tkinter.LEFT)
+    load_file_button.pack(side=tkinter.LEFT, padx=5, pady=5)
 
+    save_file_button = tkinter.Button(frame, text="Save to file...", command=save_file_dialog)
+    save_file_button.pack(side=tkinter.LEFT, padx=5, pady=5)
+
+    # Метка времени
     displayed_time = tkinter.StringVar()
     displayed_time.set(str(physical_time) + " seconds gone")
-    time_label = tkinter.Label(frame, textvariable=displayed_time, width=30)
-    time_label.pack(side=tkinter.RIGHT)
+    time_label = tkinter.Label(frame, textvariable=displayed_time)
+    time_label.pack(side=tkinter.RIGHT, padx=10, pady=5)
 
     root.mainloop()
     print('Modelling finished!')
