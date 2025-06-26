@@ -1,7 +1,0 @@
-Star 30 white 1E30 1E10 0 15E3 0
-Star 30 red 1E30 0 1E10 0 15E3
-Star 30 blue 1E30 0 -1E10 0 -15E3
-Star 30 cyan 1E30 -1E10 0 -15E3 0
-
-Planet 5 green 1E20 0.25E10 1E10 0 160E3
-Planet 5 green 1E20 -0.25E10 1E10 0 -160E3
