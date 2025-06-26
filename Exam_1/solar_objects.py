@@ -1,94 +1,47 @@
+
+
 # coding: utf-8
 # license: GPLv3
+import random
+class CelestialBody:
+    """Базовый класс для всех небесных тел"""
+    def __init__(self):
+        self.m = 0        # Масса (кг)
+        self.x = 0        # Координата x (м)
+        self.y = 0        # Координата y (м)
+        self.Vx = 0       # Скорость по x (м/с)
+        self.Vy = 0       # Скорость по y (м/с)
+        self.Fx = 0       # Сила по x (Н)
+        self.Fy = 0       # Сила по y (Н)
+        self.R = 5        # Радиус (пиксели)
+        self.color = ""   # Цвет
+        self.image = None # Графическое представление
+        self.type = ""    # Тип объекта
 
+class Star(CelestialBody):
+    """Класс звезды, наследуется от CelestialBody"""
+    def __init__(self):
+        super().__init__()
+        self.type = "star"
+        self.color = "red"
+        self.R = 20       # Звезды обычно больше планет
 
-class Star:
-    """Тип данных, описывающий звезду.
-    Содержит массу, координаты, скорость звезды,
-    а также визуальный радиус звезды в пикселах и её цвет.
-    """
+class Planet(CelestialBody):
+    def __init__(self):
+        super().__init__()
+        self.type = "planet"
+        self.moons = []  # Теперь планета явно содержит свои спутники
 
-    type = "star"
-    """Признак объекта звезды"""
+    def add_moon(self, moon):
+        """Добавляет спутник к планете"""
+        moon.parent = self
+        self.moons.append(moon)
 
-    m = 0
-    """Масса звезды"""
-
-    x = 0
-    """Координата по оси **x**"""
-
-    y = 0
-    """Координата по оси **y**"""
-
-    Vx = 0
-    """Скорость по оси **x**"""
-
-    Vy = 0
-    """Скорость по оси **y**"""
-
-    Fx = 0
-    """Сила по оси **x**"""
-
-    Fy = 0
-    """Сила по оси **y**"""
-
-    R = 5
-    """Радиус звезды"""
-
-    color = "red"
-    """Цвет звезды"""
-
-    image = None
-    """Изображение звезды"""
-
-
-class Planet:
-    """Тип данных, описывающий планету.
-    Содержит массу, координаты, скорость планеты,
-    а также визуальный радиус планеты в пикселах и её цвет
-    """
-
-    type = "planet"
-    """Признак объекта планеты"""
-
-    m = 0
-    """Масса планеты"""
-
-    x = 0
-    """Координата по оси **x**"""
-
-    y = 0
-    """Координата по оси **y**"""
-
-    Vx = 0
-    """Скорость по оси **x**"""
-
-    Vy = 0
-    """Скорость по оси **y**"""
-
-    Fx = 0
-    """Сила по оси **x**"""
-
-    Fy = 0
-    """Сила по оси **y**"""
-
-    R = 5
-    """Радиус планеты"""
-
-    color = "green"
-    """Цвет планеты"""
-
-    image = None
-    """Изображение планеты"""
-class Satellite: #новый класс
-    type = "satellite"
-    m = 0
-    x = 0
-    y = 0
-    Vx = 0
-    Vy = 0
-    Fx = 0
-    Fy = 0
-    R = 2
-    color = "white"
-    image = None
+class Moon(CelestialBody):
+    """Класс спутника, наследуется от CelestialBody"""
+    def __init__(self, parent_planet=None):
+        super().__init__()
+        self.type = "moon"
+        self.color = "gray"
+        self.R = 3        # Спутники меньше планет
+        self.parent = parent_planet  # Родительская планета
