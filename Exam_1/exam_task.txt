@@ -1,0 +1,4 @@
+Star 5 red 0.2E35 1E15 0 0 0
+Star 5 red 0.2E35 -1E15 0 0 0
+
+Planet 3 green 2E24 1.05e15 0 0 -1.5e5

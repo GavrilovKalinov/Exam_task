@@ -1,0 +1,234 @@
+Star 2 yellow 0.23E35 1E15 0 0 0
+
+Star 2 cyan 0.23E35 -1E15 0 0 0
+
+Star 2 white 0.23E35 0 1E15 0 0
+
+Star 2 red 0.23E35 0 -1E15 0 0
+
+#yellows
+#№1
+Planet 2 green 6E24 1.05E15 0 0 -1.5E5
+Planet 2 green 6E24 0.95E15 0 0 1.5E5
+Planet 2 green 6E24 1E15 0.05E15 1.5E5 0
+Planet 2 green 6E24 1E15 -0.05E15 -1.5E5 0
+
+#№2
+Planet 2 blue 8E24 1.06E15 0 0 1.505E5
+Planet 2 blue 8E24 0.94E15 0 0 -1.505E5
+Planet 2 blue 8E24 1E15 0.06E15 -1.505E5 0
+Planet 2 blue 8E24 1E15 -0.06E15 1.505E5 0
+
+#№2s
+Satellite 2 grey 8E12 1.061E15 0 0 1.507E5
+Satellite 2 grey 8E12 0.939E15 0 0 -1.507E5
+Satellite 2 grey 8E12 1E15 0.061E15 -1.507E5 0
+Satellite 2 grey 8E12 1E15 -0.061E15 1.507E5 0
+
+#3
+Planet 2 green 10E24 1.07E15 0 0 -1.51E5
+Planet 2 green 10E24 0.93E15 0 0 1.51E5
+Planet 2 green 10E24 1E15 0.07E15 1.51E5 0
+Planet 2 green 10E24 1E15 -0.07E15 -1.51E5 0
+
+#4
+Planet 2 blue 12E24 1.08E15 0 0 1.515E5
+Planet 2 blue 12E24 0.92E15 0 0 -1.515E5
+Planet 2 blue 12E24 1E15 0.08E15 -1.515E5 0
+Planet 2 blue 12E24 1E15 -0.08E15 1.515E5 0
+
+#4s
+Satellite 2 grey 5E12 1.0805E15 0 0 1.5155E5
+Satellite 2 grey 5E12 0.9195E15 0 0 -1.5155E5
+Satellite 2 grey 5E12 1E15 0.0805E15 -1.5155E5 0
+Satellite 2 grey 5E12 1E15 -0.0805E15 1.5155E5 0
+
+#5
+Planet 2 green 10E24 1.09E15 0 0 -1.52E5
+Planet 2 green 10E24 0.91E15 0 0 1.52E5
+Planet 2 green 10E24 1E15 0.09E15 1.52E5 0
+Planet 2 green 10E24 1E15 -0.09E15 -1.52E5 0
+
+#6
+Planet 2 blue 12E24 1.1E15 0 0 1.51E5
+Planet 2 blue 12E24 0.9E15 0 0 -1.51E5
+Planet 2 blue 12E24 1E15 0.1E15 -1.51E5 0
+Planet 2 blue 12E24 1E15 -0.1E15 1.51E5 0
+
+#6s
+Satellite 2 grey 5E12 1.101E15 0 0 1.5105E5
+Satellite 2 grey 5E12 0.899E15 0 0 -1.5105E5
+Satellite 2 grey 5E12 1E15 0.101E15 -1.5105E5 0
+Satellite 2 grey 5E12 1E15 -0.101E15 1.5105E5 0
+
+#7
+Planet 2 green 10E24 1.11E15 0 0 -1.452E5
+Planet 2 green 10E24 0.89E15 0 0 1.452E5
+Planet 2 green 10E24 1E15 0.11E15 1.452E5 0
+Planet 2 green 10E24 1E15 -0.11E15 -1.452E5 0
+
+#8
+Planet 2 blue 10E24 1.12E15 0 0 1.45E5
+Planet 2 blue 10E24 0.88E15 0 0 -1.45E5
+
+#8s
+Satellite 2 grey 8E10 1.121E15 0 0 1.47E5
+Satellite 2 grey 8E10 0.879E15 0 0 -1.47E5
+
+#cyans
+
+#1
+Planet 2 green 6E24 -1.05E15 0 0 1.5E5
+Planet 2 green 6E24 -0.95E15 0 0 -1.5E5
+Planet 2 green 6E24 -1E15 0.05E15 1.5E5 0
+Planet 2 green 6E24 -1E15 -0.05E15 -1.5E5 0
+
+#2
+Planet 2 blue 8E24 -1.06E15 0 0 -1.505E5
+Planet 2 blue 8E24 -0.94E15 0 0 1.505E5
+Planet 2 blue 8E24 -1E15 0.06E15 -1.505E5 0
+Planet 2 blue 8E24 -1E15 -0.06E15 1.505E5 0
+
+#2s
+Satellite 2 grey 8E12 -1.061E15 0 0 -1.507E5
+Satellite 2 grey 8E12 -0.939E15 0 0 1.507E5
+Satellite 2 grey 8E12 -1E15 0.061E15 -1.507E5 0
+Satellite 2 grey 8E12 -1E15 -0.061E15 1.507E5 0
+
+#3
+Planet 2 green 10E24 -1.07E15 0 0 1.51E5
+Planet 2 green 10E24 -0.93E15 0 0 -1.51E5
+Planet 2 green 10E24 -1E15 0.07E15 1.51E5 0
+Planet 2 green 10E24 -1E15 -0.07E15 -1.51E5 0
+
+#4
+Planet 2 blue 12E24 -1.08E15 0 0 -1.515E5
+Planet 2 blue 12E24 -0.92E15 0 0 1.515E5
+Planet 2 blue 12E24 -1E15 0.08E15 -1.515E5 0
+Planet 2 blue 12E24 -1E15 -0.08E15 1.515E5 0
+
+#4s
+Satellite 2 grey 5E12 -1.0805E15 0 0 -1.5155E5
+Satellite 2 grey 5E12 -0.9195E15 0 0 1.5155E5
+Satellite 2 grey 5E12 -1E15 0.0805E15 -1.5155E5 0
+Satellite 2 grey 5E12 -1E15 -0.0805E15 1.5155E5 0
+
+#5
+Planet 2 green 10E24 -1.09E15 0 0 1.52E5
+Planet 2 green 10E24 -0.91E15 0 0 -1.52E5
+Planet 2 green 10E24 -1E15 0.09E15 1.52E5 0
+Planet 2 green 10E24 -1E15 -0.09E15 -1.52E5 0
+
+#6
+Planet 2 blue 12E24 -1.1E15 0 0 -1.51E5
+Planet 2 blue 12E24 -0.9E15 0 0 1.51E5
+Planet 2 blue 12E24 -1E15 0.1E15 -1.51E5 0
+Planet 2 blue 12E24 -1E15 -0.1E15 1.51E5 0
+
+#6s
+Satellite 2 grey 5E12 -1.101E15 0 0 -1.5105E5
+Satellite 2 grey 5E12 -0.899E15 0 0 1.5105E5
+Satellite 2 grey 5E12 -1E15 0.101E15 -1.5105E5 0
+Satellite 2 grey 5E12 -1E15 -0.101E15 1.5105E5 0
+
+#7
+Planet 2 green 10E24 -1.11E15 0 0 1.452E5
+Planet 2 green 10E24 -0.89E15 0 0 -1.452E5
+Planet 2 green 10E24 -1E15 0.11E15 1.452E5 0
+Planet 2 green 10E24 -1E15 -0.11E15 -1.452E5 0
+
+#8
+Planet 2 blue 10E24 -1.12E15 0 0 -1.45E5
+Planet 2 blue 10E24 -0.88E15 0 0 1.45E5
+
+#8s
+Satellite 2 grey 8E10 -1.121E15 0 0 -1.47E5
+Satellite 2 grey 8E10 -0.879E15 0 0 1.47E5
+
+#reds
+
+#1
+Planet 2 green 6E24 0 -1.05E15 -1.5E5 0
+Planet 2 green 6E24 0 -0.95E15 1.5E5 0
+Planet 2 green 6E24 0.05E15 -1E15 0 -1.5E5
+Planet 2 green 6E24 -0.05E15 -1E15 0 1.5E5
+
+#2
+Planet 2 blue 6E24 0 -1.06E15 1.5E5 0
+Planet 2 blue 6E24 0 -0.94E15 -1.5E5 0
+Planet 2 blue 6E24 0.06E15 -1E15 0 1.5E5
+Planet 2 blue 6E24 -0.06E15 -1E15 0 -1.5E5
+
+#2s
+Satellite 2 grey 8E12 0 -1.061E15 1.507E5 0
+Satellite 2 grey 8E12 0 -0.939E15 -1.507E5 0
+Satellite 2 grey 8E12 0.061E15 -1E15 0 1.507E5
+Satellite 2 grey 8E12 -0.061E15 -1E15 0 -1.507E5
+
+#3
+Planet 2 green 10E24 0 -1.07E15 -1.51E5 0
+Planet 2 green 10E24 0 -0.93E15 1.51E5 0
+Planet 2 green 10E24 0.07E15 -1E15 0 -1.51E5
+Planet 2 green 10E24 -0.07E15 -1E15 0 1.51E5
+
+#4
+Planet 2 blue 12E24 0 -1.08E15 1.515E5 0
+Planet 2 blue 12E24 0 -0.92E15 -1.515E5 0
+Planet 2 blue 12E24 0.08E15 -1E15 0 1.515E5
+Planet 2 blue 12E24 -0.08E15 -1E15 0 -1.515E5
+
+#4s
+Satellite 2 grey 8E12 0 -1.0805E15 1.5155E5 0
+Satellite 2 grey 8E12 0 -0.9195E15 -1.5155E5 0
+Satellite 2 grey 8E12 0.0805E15 -1E15 0 1.5155E5
+Satellite 2 grey 8E12 -0.0805E15 -1E15 0 -1.5155E5
+
+#5
+Planet 2 green 10E24 0 -1.09E15 -1.52E5 0
+Planet 2 green 10E24 0 -0.91E15 1.52E5 0
+Planet 2 green 10E24 0.09E15 -1E15 0 -1.52E5
+Planet 2 green 10E24 -0.09E15 -1E15 0 1.52E5
+
+#whites
+
+#1
+Planet 2 green 6E24 0 1.05E15 1.5E5 0
+Planet 2 green 6E24 0 0.95E15 -1.5E5 0
+Planet 2 green 6E24 0.05E15 1E15 0 -1.5E5
+Planet 2 green 6E24 -0.05E15 1E15 0 1.5E5
+
+#2
+Planet 2 blue 6E24 0 1.06E15 -1.5E5 0
+Planet 2 blue 6E24 0 0.94E15 1.5E5 0
+Planet 2 blue 6E24 0.06E15 1E15 0 1.5E5
+Planet 2 blue 6E24 -0.06E15 1E15 0 -1.5E5
+
+#2s
+Satellite 2 grey 8E12 0 1.061E15 -1.507E5 0
+Satellite 2 grey 8E12 0 0.939E15 1.507E5 0
+Satellite 2 grey 8E12 0.061E15 1E15 0 1.507E5
+Satellite 2 grey 8E12 -0.061E15 1E15 0 -1.507E5
+
+#3
+Planet 2 green 10E24 0 1.07E15 1.51E5 0
+Planet 2 green 10E24 0 0.93E15 -1.51E5 0
+Planet 2 green 10E24 0.07E15 1E15 0 -1.51E5
+Planet 2 green 10E24 -0.07E15 1E15 0 1.51E5
+
+#4
+Planet 2 blue 12E24 0 1.08E15 -1.515E5 0
+Planet 2 blue 12E24 0 0.92E15 1.515E5 0
+Planet 2 blue 12E24 0.08E15 1E15 0 1.515E5
+Planet 2 blue 12E24 -0.08E15 1E15 0 -1.515E5
+
+#4s
+Satellite 2 grey 8E12 0 1.0805E15 -1.5155E5 0
+Satellite 2 grey 8E12 0 0.9195E15 1.5155E5 0
+Satellite 2 grey 8E12 0.0805E15 1E15 0 1.5155E5
+Satellite 2 grey 8E12 -0.0805E15 1E15 0 -1.5155E5
+
+#5
+Planet 2 green 10E24 0 1.09E15 1.52E5 0
+Planet 2 green 10E24 0 0.91E15 -1.52E5 0
+Planet 2 green 10E24 0.09E15 1E15 0 -1.52E5
+Planet 2 green 10E24 -0.09E15 1E15 0 1.52E5
