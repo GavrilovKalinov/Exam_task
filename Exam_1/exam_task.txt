@@ -1,9 +1,0 @@
-#Звезды
-Star 30 red 2E30 0 0 0 0
-
-#Планеты - нулевой шаг - нечет., шаг в 2 - чет.
-Planet 15 green 2E27 7E9 0 0 90E3
-Planet 15 green 2E27 17E9 0 0 -90E3 
-Planet 15 green 2E27 -7E9 0 0 -90E3
-Planet 15 green 2E27 -17E9 0 0 90E3
-
